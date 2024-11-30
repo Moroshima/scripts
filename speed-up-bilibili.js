@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         红色有角三倍速
 // @namespace    http://yunagi.dev/
-// @version      1.0.1
+// @version      1.0.2
 // @description  增加B站的倍速可选项
 // @author       Itsuki Moroshima
 // @match        *://*.bilibili.com/video/*
@@ -22,7 +22,7 @@
           ".bpx-player-ctrl-playbackrate-menu"
         );
         if (targetElement) {
-          const speeds = ["3", "4"];
+          const speeds = ["3.0", "4.0"];
 
           const parent = document.getElementsByClassName(
             "bpx-player-ctrl-playbackrate-menu"
