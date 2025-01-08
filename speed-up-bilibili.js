@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         红色有角三倍速
 // @namespace    http://yunagi.dev/
-// @version      1.0.2
+// @version      1.0.4
 // @description  增加B站的倍速可选项
 // @author       Itsuki Moroshima
-// @match        *://*.bilibili.com/video/*
+// @match        *://*.bilibili.com/*
 // @icon         https://www.bilibili.com/favicon.ico
 // @grant        none
 // @run-at       document-end
